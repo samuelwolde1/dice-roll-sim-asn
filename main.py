@@ -31,12 +31,19 @@ while loop == True:
             roll2Dice()
     
     elif selection == "4":
-        for n in range(rand1 + rand2)
-        while loop3 == True:
+        loop1 = True
+        num = 0
+        while loop1 == True:
             roll2Dice()
-            rolls+=1
-            if sum == 2:
-                print('You got snake eyes')
+            num+=1
+            if roll2Dice() == 2:
+                print('It took ' + str(num) + ' rolls to get snake eyes')
+                loop1 = False
+    
+    elif selection == "5":
+        print('See You next time')
+        exit()
+         
 
                 
             
